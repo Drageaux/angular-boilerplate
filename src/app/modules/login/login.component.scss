@@ -1,0 +1,17 @@
+.wrapper {
+
+  form {
+    position: absolute;
+    width: 50%;
+    min-width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    display: block;
+
+    label {
+      font-weight: bold;
+    }
+  }
+}
