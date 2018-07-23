@@ -37,7 +37,7 @@ export class AppComponent {
                     }
                 }))
             .subscribe(title => {
-                this.titleService.setTitle(title ? title + ' | VATO Vauth Web' : 'VATO Vauth Web');
+                this.titleService.setTitle(title ? title + ' | App Name' : 'App Name');
             });
 
         // navbar to close on navigate
